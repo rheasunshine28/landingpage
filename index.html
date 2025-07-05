@@ -20,7 +20,7 @@
 
     body {
       font-family: 'Source Sans Pro', sans-serif;
-      background-image: url('background.jpg'); /* Replace with your image filename */
+      background-image: url('background-placeholder.jpg'); /* Background image placeholder */
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -40,9 +40,10 @@
       color: var(--blue);
     }
 
-    .logo {
-      font-weight: bold;
-      font-size: 1.2rem;
+    .logo img {
+      height: 40px; /* Adjust as needed */
+      width: auto;
+      display: block;
     }
 
     .top-cta-button {
@@ -127,7 +128,10 @@
 </head>
 <body>
   <header>
-    <div class="logo">Charity Water</div>
+    <div class="logo">
+      <!-- Placeholder logo image -->
+      <img src="logo-placeholder.jpg" alt="Charity Water Logo" />
+    </div>
     <button class="top-cta-button">Donate - See Your Impact!</button>
   </header>
 
@@ -139,5 +143,6 @@
   </section>
 </body>
 </html>
+
 
 

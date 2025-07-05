@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Charity Water - Beyond Donations</title>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&family=Poppins:wght@300&family=Source+Serif+Pro:wght@600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --yellow: #FFC907;
+      --blue: #2E9DF7;
+      --white: #ffffff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Source Sans Pro', sans-serif;
+      background-color: var(--blue);
+      color: white;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: var(--white);
+      color: var(--blue);
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+
+    .top-cta-button {
+      background-color: var(--yellow);
+      color: black;
+      font-family: 'Source Serif Pro', serif;
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+      font-weight: 600;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .top-cta-button:hover {
+      background-color: #e6b800;
+    }
+
+    .hero {
+      flex: 1;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-start;
+      padding: 3rem 3rem 0;
+    }
+
+    .hero-text {
+      text-align: right;
+      max-width: 500px;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    .hero p {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 300;
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .cta-button {
+      background-color: var(--yellow);
+      color: black;
+      font-family: 'Source Serif Pro', serif;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      font-weight: 600;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background-color: #e6b800;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        padding: 2rem 1rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+      .hero-text {
+        text-align: center;
+      }
+
+      .hero h1 {
+        font-size: 2rem;
+        white-space: normal;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Charity Water</div>
+    <button class="top-cta-button">Donate - See Your Impact!</button>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Beyond Donations:<br>See Your Impact</h1>
+      <p>Fund sustainable water projects and get verifiable proof of every life changed.</p>
+    </div>
+  </section>
+</body>
+</html>
